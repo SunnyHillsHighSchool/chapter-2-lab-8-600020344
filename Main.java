@@ -6,7 +6,7 @@
 import java.util.*;
 import static java.lang.System.*;
 
-public class ListFunHouseTwoRunner
+public class Main
 {
 	public static void main ( String[] args )
 	{
@@ -42,6 +42,11 @@ public class ListFunHouseTwoRunner
 		System.out.println(funHouse);
 		out.println();	
 				
+    //not originally included in the main method
+    funHouse.skipEveryOther();		
+		out.println("\nList values after calling skipEveryOther\n");							
+		System.out.println(funHouse);
+		out.println();	
 		
 		funHouse.removeXthNode(2);		
 		out.println("\nList values after calling removeXthNode(2)\n");					
